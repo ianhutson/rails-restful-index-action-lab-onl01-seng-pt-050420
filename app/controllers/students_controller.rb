@@ -1,5 +1,5 @@
 class StudentsController < ApplicationController
   def index
-    iv = Student.all
+    @iv = Student.all
   end
 end
